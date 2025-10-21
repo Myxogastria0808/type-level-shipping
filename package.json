@@ -1,0 +1,17 @@
+{
+  "name": "type-level-shipping",
+  "scripts": {
+    "package:dev": "pnpm -C package dev"
+  },
+  "packageManager": "pnpm@10.18.0",
+  "devDependencies": {
+    "@vitest/coverage-v8": "catalog:",
+    "@vitest/ui": "catalog:",
+    "tsup": "catalog:",
+    "tsx": "catalog:",
+    "turbo": "catalog:",
+    "typedoc": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

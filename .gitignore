@@ -1,0 +1,8 @@
+# Nix
+/.direnv
+
+# JavaScript
+node_modules/
+dist/
+html/
+coverage/

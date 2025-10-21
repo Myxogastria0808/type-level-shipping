@@ -1,0 +1,58 @@
+{
+  "name": "type-level-shipping",
+  "version": "0.0.1",
+  "description": "This package enables type-safe evaluation of shipping (an otaku slang, in Japanese name: coupling) at the type level.",
+  "keywords": [
+    "type level shipping",
+    "shipping"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "require": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "COPYING"
+  ],
+  "scripts": {
+    "dev": "tsx src/index.ts"
+  },
+  "engines": {
+    "npm": "use pnpm please!",
+    "yarn": "use pnpm please!",
+    "pnpm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Myxogastria0808/type-level-shipping.git"
+  },
+  "author": "Myxogastria0808",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Myxogastria0808/type-level-shipping/issues"
+  },
+  "homepage": "https://github.com/Myxogastria0808/type-level-shipping/",
+  "packageManager": "pnpm@10.18.0",
+  "devDependencies": {
+    "@vitest/coverage-v8": "catalog:",
+    "@vitest/ui": "catalog:",
+    "tsup": "catalog:",
+    "tsx": "catalog:",
+    "typedoc": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}
